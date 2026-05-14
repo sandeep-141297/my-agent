@@ -12,6 +12,10 @@ __pycache__/
 # VS Code
 .vscode/
 
+
 # Windows
 Thumbs.db
 desktop.ini
+
+# Files created by the agent
+*.txt
