@@ -322,6 +322,18 @@ llama-3.3-70b-versatile
 
 ---
 
+# 📦 Requirements
+
+Example dependencies:
+
+```txt
+Flask
+python-dotenv
+groq
+```
+
+---
+
 # 🧠 Powered By
 
 - Groq API
