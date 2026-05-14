@@ -15,7 +15,7 @@ conversation_history = []
 
 @app.route("/")
 def home():
-    return send_file("index.html")
+    return send_file("templates/index.html")
 
 @app.route("/chat", methods=["POST"])
 def chat():

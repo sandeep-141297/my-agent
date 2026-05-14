@@ -41,7 +41,7 @@ Build intelligent conversations using **Llama 3.3 70B** with a clean web-based c
 # 📂 Project Structure
 
 ```bash
-AI-Agent/
+My-Agent/
 │
 ├── static/            # CSS, JS, Images
 ├── templates/         # HTML Templates
@@ -65,14 +65,14 @@ cd YOUR_REPO_NAME
 
 ---
 
-## 2️⃣ Create Virtual Environment
+## 2️⃣ Create Virtual Environment 
 
 ### Windows
 
 ```bash
 python -m venv venv
 
-venv\Scripts\activate
+venv\Scripts\activate 
 ```
 
 ### Linux / Mac
@@ -190,3 +190,5 @@ This project is licensed under the **MIT License**.
 ### ⭐ If you like this project, give it a star on GitHub ⭐
 
 </div>
+
+### Note: Ensure to activate the virtual environment first before running any Python file. 
