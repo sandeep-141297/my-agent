@@ -105,6 +105,8 @@ GROQ_API_KEY=your_groq_api_key_here
 
 # ▶️ Run the Application
 
+### Note: Ensure to activate the virtual environment first before running any Python file.
+
 ```bash
 python server.py
 ```
@@ -191,4 +193,4 @@ This project is licensed under the **MIT License**.
 
 </div>
 
-### Note: Ensure to activate the virtual environment first before running any Python file. 
+ 
