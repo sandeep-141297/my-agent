@@ -1,6 +1,6 @@
 
-  //const toolIcons = { calculator:'🧮', get_datetime:'🕐', read_file:'📁', write_file:'💾', web_search:'🔍' };
-  const toolIcons = { calculator:'🧮', get_datetime:'🕐', write_file:'💾', web_search:'🔍' };
+  const toolIcons = { calculator:'🧮', get_datetime:'🕐', web_search:'🔍', write_file:'💾', read_file:'📁'  };
+  // const toolIcons = { calculator:'🧮', get_datetime:'🕐', write_file:'💾', web_search:'🔍' };
   const loading = { chat: false, agent: false };
   let activeTab = 'chat';
 
@@ -172,15 +172,16 @@
         <div class="tools-grid">
           <span class="tool-chip">🧮 calculator</span>
           <span class="tool-chip">🕐 date & time</span>
-          <!--<span class="tool-chip">📁 read file</span>-->
-          <span class="tool-chip">💾 write file</span>
           <span class="tool-chip">🔍 web search</span>
+          <span class="tool-chip">💾 write file</span>
+          <span class="tool-chip">📁 read file</span>
         </div>
         <div class="suggestions">
           <div class="suggestion" onclick="sendSuggestion(this,'agent')">What is 1234 * 5678?</div>
           <div class="suggestion" onclick="sendSuggestion(this,'agent')">What time is it?</div>
-          <div class="suggestion" onclick="sendSuggestion(this,'agent')">Save a note: Buy groceries</div>
           <div class="suggestion" onclick="sendSuggestion(this,'agent')">Search latest AI news</div>
+          <div class="suggestion" onclick="sendSuggestion(this,'agent')">Save a note: Buy groceries</div>
+          <div class="suggestion" onclick="sendSuggestion(this,'agent')">Read file - C:\my-agent\agent_files\notes.txt</div>
         </div>`;
     }
     chat.appendChild(welcome);
