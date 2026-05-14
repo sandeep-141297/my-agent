@@ -70,6 +70,8 @@ The AI Agent can perform real actions using tools.
 My-Agent/
 │
 ├── agent_files/       # Saved files by AI agent
+├── static/            # CSS, JS, Images
+│
 ├── templates/
 │   └── index.html
 │
